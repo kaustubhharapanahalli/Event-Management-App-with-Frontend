@@ -28,7 +28,7 @@ class Event(Tk):
 
 
 	def show_frame(self, cont):
-		frame=cont(parent=self.container,controller=self)
+		frame=cont(parent=self.container, controller=self)
 		frame.grid(row=0,column=0,sticky="nsew")
 		frame.tkraise()
 
